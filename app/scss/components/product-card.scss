@@ -54,7 +54,7 @@
         font-size: 0.75rem;
         font-size: clamp(0.75rem, 0.625rem + 0.625vw, 0.875rem);
         letter-spacing: rem(5);
-        color: var(--grey);
+        color: $grey;
     }
 
     &__title {
@@ -62,7 +62,7 @@
         font-weight: var(--fraunces-700);
         font-size: 1.125rem;
         font-size: clamp(1.125rem, 0.5rem + 3.125vw, 1.75rem);
-        color: var(--black);
+        color: $black;
     }
 
     &__description {
@@ -70,7 +70,7 @@
         font-weight: var(--montserrat-500);
         font-size: 0.75rem;
         font-size: clamp(0.75rem, 0.5rem + 1.25vw, 1rem);
-        color: var(--grey);
+        color: $grey;
     }
 
     &__discounted {
@@ -78,7 +78,7 @@
         font-weight: var(--fraunces-700);
         font-size: 1rem;
         font-size: clamp(1rem, 0.25rem + 3.75vw, 1.75rem);
-        color: var(--green-500);
+        color: $green-500;
     }
 
     &__original {
@@ -86,15 +86,15 @@
         font-weight: var(--montserrat-500);
         font-size: 0.75rem;
         font-size: clamp(0.75rem, 0.625rem + 0.625vw, 0.875rem);
-        color: var(--grey);
+        color: $grey;
     }
 
     &__button {
         font-family: var(--font-montserrat);
         font-weight: var(--montserrat-700);
         font-size: rem(16);
-        color: var(--white);
-        background-color: var(--green-500);
+        color: $white;
+        background-color: $green-500;
         @include flex-center;
         gap: rem(16);
         padding: rem(16);
@@ -102,12 +102,12 @@
         border: none;
 
         &:hover {
-            background-color: var(--green-700);
+            background-color: $green-700;
         }
     }
 
     &__button-icon {
-        color: var(--white);
+        color: $white;
     }
 
     &__content {
