@@ -7,16 +7,14 @@
     height: 100vh;
     @include flex-center;
     border: 1px solid black;
+    background-color: var(--cream);
 
-    @include breakpoint(medium) {
-        padding: 0;
-        color: red;
+    @include breakpoint(large) {
+        max-width: 100vw;
     }
 }
 
-body {
-    background-color: var(--cream);
-}
+// body {}
 
 .product-card {
     background-color: var(--white);
